@@ -11,7 +11,7 @@ function App() {
             Gabutzz <span className="text-blue-400">Doang</span>
           </h1>
           <button className="flex items-center gap-2">
-            <p>New</p>
+            <p>Newssss</p>
             <i className="fa-solid fa-plus"></i>
           </button>
         </header>
