@@ -16,7 +16,7 @@ export default function SignUp() {
       .post("http://localhost:3001/register", { name, email, password })
       .then((result) => {
         console.log(result);
-        navigate("/login");
+        navigate("/login"); // navigasi ke halaman login setelah berhasil
       })
       .catch((err) => console.log(err));
   };
